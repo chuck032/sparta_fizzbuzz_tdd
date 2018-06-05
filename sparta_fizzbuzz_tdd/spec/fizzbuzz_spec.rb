@@ -1,11 +1,12 @@
 require 'spec_helper'
 
 describe FizzbuzzEng do
+  #Before each test initialize the class method
   before(:each) do
     @fb = FizzbuzzEng.new
   end
 
-# test for multiples of both 3 and 5
+#test for multiples of both 3 and 5
   it 'should replace multiples of 3 and 5 with FizzBuzz' do
     i = 14 # First value that is a multiple of 3 and 5
     loop do
