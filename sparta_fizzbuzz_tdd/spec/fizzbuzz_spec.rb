@@ -1,7 +1,7 @@
 require 'spec_helper'
 
 describe FizzbuzzEng do
-  #Before each test initialize the class method
+  #Before each test initialise the class method
   before(:each) do
     @fb = FizzbuzzEng.new
   end
