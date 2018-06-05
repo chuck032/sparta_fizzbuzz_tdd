@@ -20,7 +20,7 @@ class FizzbuzzEng
 
   end
 
-check = FizzbuzzEng.new
-check.fizz_loop
+# check = FizzbuzzEng.new
+# check.fizz_loop
 
 end
